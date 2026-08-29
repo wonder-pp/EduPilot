@@ -1,0 +1,134 @@
+{
+    "北京": {
+        "province": "北京市",
+        "main_industries": ["互联网/IT", "金融科技", "人工智能", "大数据", "云计算", "教育科研"],
+        "top_companies": ["百度", "字节跳动", "腾讯北京", "阿里巴巴北京", "美团", "京东", "奇虎360", "小米", "滴滴"],
+        "tech_companies": ["百度", "字节跳动", "微软亚洲研究院", "谷歌中国", "美团", "小米", "滴滴", "快手"],
+        "positions_for_data_science": ["数据分析师", "大数据工程师", "数据科学家", "机器学习工程师", "数据平台开发"],
+        "positions_for_ai_science": ["算法工程师", "AI研究员", "计算机视觉工程师", "NLP工程师", "深度学习工程师", "推荐算法工程师"],
+        "salary_range": "应届:8K-18K；3年:20K-50K；5年+:50K+",
+        "development_trend": "AI大模型、自动驾驶、智慧城市建设加速，AI+金融、AI+医疗应用落地",
+        "resources": ["中关村科技园", "北京智源人工智能研究院", "百度大脑", "国家人工智能创新应用先导区"]
+    },
+    "上海": {
+        "province": "上海市",
+        "main_industries": ["金融科技", "人工智能", "大数据", "芯片设计", "云计算", "游戏产业"],
+        "top_companies": ["阿里巴巴上海", "腾讯上海", "美团上海", "拼多多", "携程", "东方财富", "蚂蚁集团"],
+        "tech_companies": ["拼多多", "携程", "蚂蚁集团", "东方财富", "Bilibili", "米哈游", "莉莉丝游戏"],
+        "positions_for_data_science": ["数据分析师", "风控分析师", "大数据开发", "数据产品经理"],
+        "positions_for_ai_science": ["AI算法工程师", "推荐算法", "NLP工程师", "计算机视觉", "自动驾驶算法"],
+        "salary_range": "应届:8K-16K；3年:18K-45K；5年+:45K+",
+        "development_trend": "金融科技中心，AI+金融、AI+游戏、AI+教育蓬勃发展，大模型产业聚集",
+        "resources": ["张江人工智能岛", "上海AI Lab", "阿里巴巴达摩院上海", "长三角数据要素交易中心"]
+    },
+    "深圳": {
+        "province": "广东省",
+        "main_industries": ["互联网/IT", "硬件制造", "人工智能", "大数据", "新能源", "芯片设计"],
+        "top_companies": ["腾讯", "华为", "大疆", "比亚迪", "顺丰", "平安科技", "微众银行"],
+        "tech_companies": ["腾讯", "华为", "大疆创新", "中兴通讯", "迅雷", "微众银行", "平安科技"],
+        "positions_for_data_science": ["数据分析师", "大数据工程师", "数据仓库开发", "BI工程师"],
+        "positions_for_ai_science": ["AI算法工程师", "计算机视觉", "自动驾驶算法", "无人机算法", "机器人算法"],
+        "salary_range": "应届:7K-15K；3年:18K-40K；5年+:40K+",
+        "development_trend": "硬件+AI融合，自动驾驶、无人机、机器人产业领先，华为生态AI人才需求旺盛",
+        "resources": ["深圳湾科技生态园", "深圳先进院", "国家自主创新示范区", "粤港澳大湾区AI产业联盟"]
+    },
+    "杭州": {
+        "province": "浙江省",
+        "main_industries": ["电子商务", "云计算", "大数据", "人工智能", "数字经济"],
+        "top_companies": ["阿里巴巴", "网易", "蚂蚁集团", "菜鸟网络", "娃哈哈", "浙江大华"],
+        "tech_companies": ["阿里巴巴", "网易", "蚂蚁集团", "菜鸟网络", "阿里云", "华三通信", "浙江大华"],
+        "positions_for_data_science": ["数据分析师", "数据运营", "大数据工程师", "BI工程师", "数据产品"],
+        "positions_for_ai_science": ["AI算法工程师", "推荐算法", "搜索算法", "NLP工程师", "计算机视觉"],
+        "salary_range": "应届:6K-14K；3年:15K-38K；5年+:38K+",
+        "development_trend": "电商大数据生态，阿里云生态AI，数字经济示范城市，AI+零售、AI+物流领先",
+        "resources": ["杭州未来科技城", "阿里巴巴达摩院", "之江实验室", "西湖区云计算产业园"]
+    },
+    "广州": {
+        "province": "广东省",
+        "main_industries": ["互联网/IT", "金融科技", "人工智能", "大数据", "外贸电商"],
+        "top_companies": ["腾讯广州", "网易广州", "微信总部", "唯品会", "唯品会", "TCL", "南方电网"],
+        "tech_companies": ["微信团队", "网易广州", "唯品会", "虎牙直播", "4399游戏", "百视TV"],
+        "positions_for_data_science": ["数据分析师", "大数据工程师", "数据平台开发", "BI工程师"],
+        "positions_for_ai_science": ["AI算法工程师", "推荐算法", "计算机视觉", "NLP工程师", "游戏AI"],
+        "salary_range": "应届:6K-13K；3年:14K-35K；5年+:35K+",
+        "development_trend": "微信生态AI，电商大数据，游戏AI，珠三角AI创新带",
+        "resources": ["广州天河智慧城", "广州AI Lab", "广州数据交易所", "大湾区创新走廊"]
+    },
+    "成都": {
+        "province": "四川省",
+        "main_industries": ["互联网/IT", "游戏产业", "人工智能", "大数据", "电子信息"],
+        "top_companies": ["腾讯成都", "阿里巴巴成都", "网易成都", "字节跳动成都", "新希望", "长虹"],
+        "tech_companies": ["腾讯成都", "阿里巴巴成都", "网易成都", "完美世界", "叠纸游戏", "天府软件园企业"],
+        "positions_for_data_science": ["数据分析师", "大数据工程师", "数据开发", "BI工程师"],
+        "positions_for_ai_science": ["AI算法工程师", "游戏AI", "计算机视觉", "NLP工程师", "推荐算法"],
+        "salary_range": "应届:5K-12K；3年:12K-30K；5年+:30K+",
+        "development_trend": "游戏产业AI、大数据中心建设、AI+医疗健康、AI+农业",
+        "resources": ["天府软件园", "成都高新区", "成都AI创新中心", "国家大数据综合试验区"]
+    },
+    "武汉": {
+        "province": "湖北省",
+        "main_industries": ["光电子", "人工智能", "大数据", "芯片设计", "智能制造"],
+        "top_companies": ["华为武汉", "腾讯武汉", "小米武汉", "长江存储", "武汉光迅", "华为海思"],
+        "tech_companies": ["华为武汉", "腾讯武汉", "小米武汉", "长江存储", "武汉光迅", "华星光电"],
+        "positions_for_data_science": ["数据分析师", "大数据工程师", "数据开发", "BI工程师"],
+        "positions_for_ai_science": ["AI算法工程师", "芯片设计", "计算机视觉", "NLP工程师", "自动驾驶算法"],
+        "salary_range": "应届:5K-11K；3年:11K-28K；5年+:28K+",
+        "development_trend": "光谷AI产业聚集，AI+芯片、AI+智能制造、AI+光学领先",
+        "resources": ["光谷科技园", "武汉人工智能研究院", "长江经济带大数据中心", "武汉东湖高新区"]
+    },
+    "南京": {
+        "province": "江苏省",
+        "main_industries": ["软件产业", "人工智能", "大数据", "集成电路", "智能制造"],
+        "top_companies": ["华为南京", "中兴南京", "小米南京", "中国电子", "苏宁", "途牛"],
+        "tech_companies": ["华为南京", "中兴通讯", "小米南京", "途牛", "焦点科技", "浩鲸科技"],
+        "positions_for_data_science": ["数据分析师", "大数据工程师", "数据开发", "BI工程师"],
+        "positions_for_ai_science": ["AI算法工程师", "计算机视觉", "NLP工程师", "自动驾驶算法", "推荐算法"],
+        "salary_range": "应届:5K-12K；3年:12K-30K；5年+:30K+",
+        "development_trend": "软件谷AI、AI+智能制造、AI+教育、集成电路AI人才需求",
+        "resources": ["南京软件谷", "南京AI研究院", "江苏省产业技术研究院", "南京江北新区"]
+    },
+    "杭州湾": {
+        "province": "浙江省",
+        "main_industries": ["人工智能", "大数据", "智能制造", "物联网", "数字经济"],
+        "top_companies": ["阿里巴巴", "网易", "吉利汽车", "海康威视", "大华股份", "舜宇"],
+        "tech_companies": ["海康威视", "大华股份", "吉利汽车", "舜宇光学", "汇川技术", "中控技术"],
+        "positions_for_data_science": ["数据分析师", "大数据工程师", "数据开发", "智能制造数据"],
+        "positions_for_ai_science": ["AI算法工程师", "计算机视觉", "自动驾驶算法", "机器人算法", "智能制造AI"],
+        "salary_range": "应届:5K-12K；3年:12K-30K；5年+:30K+",
+        "development_trend": "AI+智能制造、AI+安防、AI+汽车、物联网AI应用领先",
+        "resources": ["杭州湾新区", "宁波软件产业园", "浙江省智能制造创新中心", "甬江实验室"]
+    },
+    "重庆": {
+        "province": "重庆市",
+        "main_industries": ["大数据", "人工智能", "电子信息", "汽车制造", "云计算"],
+        "top_companies": ["腾讯重庆", "阿里巴巴重庆", "华为重庆", "长安汽车", "金科", "猪八戒网"],
+        "tech_companies": ["腾讯重庆", "阿里巴巴重庆", "华为重庆", "猪八戒网", "马上消费", "惠金所"],
+        "positions_for_data_science": ["数据分析师", "大数据工程师", "数据开发", "BI工程师"],
+        "positions_for_ai_science": ["AI算法工程师", "计算机视觉", "NLP工程师", "推荐算法", "汽车AI"],
+        "salary_range": "应届:4.5K-10K；3年:10K-25K；5年+:25K+",
+        "development_trend": "大数据中心建设、AI+汽车、AI+金融、AI+农业",
+        "resources": ["重庆两江新区", "重庆大数据产业园", "西南AI创新中心", "重庆高新区"]
+    },
+    "西安": {
+        "province": "陕西省",
+        "main_industries": ["软件产业", "人工智能", "大数据", "集成电路", "航空航天"],
+        "top_companies": ["华为西安", "中兴西安", "腾讯西安", "比亚迪西安", "中国航天", "西电"],
+        "tech_companies": ["华为西安", "中兴通讯", "比亚迪西安", "三星半导体", "美光科技", "杨森制药"],
+        "positions_for_data_science": ["数据分析师", "大数据工程师", "数据开发", "BI工程师"],
+        "positions_for_ai_science": ["AI算法工程师", "芯片设计", "计算机视觉", "NLP工程师", "航空航天AI"],
+        "salary_range": "应届:4.5K-10K；3年:10K-25K；5年+:25K+",
+        "development_trend": "高校资源丰富，AI+航空航天、AI+芯片、AI+能源领域发展",
+        "resources": ["西安高新区", "陕西自贸区", "西咸新区", "丝绸之路大数据中心"]
+    },
+    "海外": {
+        "province": "海外",
+        "main_industries": ["人工智能", "云计算", "大数据", "芯片设计", "互联网"],
+        "top_companies": ["Google", "Microsoft", "Amazon", "Meta", "Apple", "NVIDIA"],
+        "tech_companies": ["Google", "Microsoft", "Amazon", "Meta", "Apple", "NVIDIA", "Tesla", "Netflix"],
+        "positions_for_data_science": ["Data Scientist", "Data Engineer", "ML Engineer", "Analytics Engineer"],
+        "positions_for_ai_science": ["AI Researcher", "ML Engineer", "Computer Vision Engineer", "NLP Engineer", "Robotics Engineer"],
+        "salary_range": "应届:$80K-$150K；3年:$150K-$300K；5年+:300K+",
+        "development_trend": "AI前沿研究领先，大模型、AGI、AI+科学领域快速发展",
+        "resources": ["美国硅谷", "加拿大多伦多", "英国伦敦", "新加坡", "Google Brain", "DeepMind", "OpenAI"]
+    }
+}

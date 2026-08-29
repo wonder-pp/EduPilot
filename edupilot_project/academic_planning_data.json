@@ -1,0 +1,696 @@
+{
+    "interview_data": {
+        "description": "基于真实师哥师姐采访的学习路径数据，每个人都是独特的案例，支持按家乡、专业、就业方向筛选",
+        "interview_template": {
+            "basic_info": {
+                "name": "姓名",
+                "major": "专业（数据科学与大数据技术/智能科学与技术）",
+                "hometown": "家乡（省份/城市）",
+                "graduation_year": "毕业年份",
+                "current_job": "当前工作",
+                "company": "公司",
+                "city": "工作城市",
+                "salary_range": "薪资范围（可选）"
+            },
+            "learning_path": {
+                "year_1": {
+                    "title": "大一路径",
+                    "courses": "重点学习的课程",
+                    "skills": "掌握的技能",
+                    "activities": "参加的活动/竞赛/社团",
+                    "key_events": "关键事件（如确定方向、遇到导师等）",
+                    "advice": "给大一学弟学妹的建议"
+                },
+                "year_2": {
+                    "title": "大二路径",
+                    "courses": "重点学习的课程",
+                    "skills": "掌握的技能",
+                    "activities": "参加的活动/竞赛/项目",
+                    "key_events": "关键事件（如确定方向、遇到导师等）",
+                    "advice": "给大二学弟学妹的建议"
+                },
+                "year_3": {
+                    "title": "大三路径",
+                    "courses": "重点学习的课程",
+                    "skills": "掌握的技能",
+                    "activities": "参加的活动/竞赛/实习",
+                    "key_events": "关键事件（如实习、考研准备等）",
+                    "advice": "给大三学弟学妹的建议"
+                },
+                "year_4": {
+                    "title": "大四路径",
+                    "courses": "重点学习的课程",
+                    "skills": "掌握的技能",
+                    "activities": "毕业论文/实习/求职",
+                    "key_events": "关键事件（如拿到offer、考研结果等）",
+                    "advice": "给大四学弟学妹的建议"
+                }
+            },
+            "key_insights": {
+                "turning_points": "人生转折点（如选择方向、放弃保研选择就业等）",
+                "hardest_challenge": "遇到的最大挑战及如何克服",
+                "most_useful_courses": "最有用的3门课程",
+                "most_useful_skills": "最有用的3项技能",
+                "regrets": "如果重来一次会做什么不同",
+                "career_advice": "对同专业同学的职业建议",
+                "hometown_advice": "对同家乡同学的特别建议"
+            },
+            "resources": {
+                "books": "推荐的书籍",
+                "courses": "推荐的在线课程",
+                "websites": "推荐的网站/工具",
+                "communities": "推荐的社区/论坛"
+            }
+        },
+        "interviews": [
+            {
+                "interview_id": "interview_001",
+                "person_id": "张学长_河北",
+                "basic_info": {
+                    "name": "张同学",
+                    "major": "数据科学与大数据技术",
+                    "hometown": "河北石家庄",
+                    "graduation_year": "2020",
+                    "current_job": "数据分析师",
+                    "company": "字节跳动",
+                    "city": "北京",
+                    "salary_range": "25K×15薪"
+                },
+                "learning_path": {
+                    "year_1": {
+                        "title": "迷茫探索期",
+                        "courses": ["高等数学", "线性代数", "Python程序设计"],
+                        "skills": ["Python基础", "Linux操作"],
+                        "activities": ["计算机协会", "Python入门比赛"],
+                        "key_events": ["通过Python比赛发现对数据的兴趣"],
+                        "advice": "大一不要着急确定方向，多尝试不同领域"
+                    },
+                    "year_2": {
+                        "title": "方向确定期",
+                        "courses": ["数据科学导论", "数据库原理", "统计学"],
+                        "skills": ["SQL", "Python数据分析", "Excel高级应用"],
+                        "activities": ["Kaggle入门竞赛", "学院数据项目"],
+                        "key_events": ["参加Kaggle比赛获得铜牌，确定数据分析方向"],
+                        "advice": "大二一定要确定方向，然后深入学习"
+                    },
+                    "year_3": {
+                        "title": "技能提升期",
+                        "courses": ["机器学习", "数据挖掘", "数据可视化"],
+                        "skills": ["Tableau", "机器学习基础", "A/B测试"],
+                        "activities": ["美团数据分析实习", "完成多个数据分析项目"],
+                        "key_events": ["通过实习了解真实工作内容"],
+                        "advice": "大三一定要去实习，这是了解行业最好的方式"
+                    },
+                    "year_4": {
+                        "title": "求职冲刺期",
+                        "courses": [],
+                        "skills": ["面试技巧", "简历优化"],
+                        "activities": ["秋招投递", "准备面试"],
+                        "key_events": ["拿到字节跳动offer"],
+                        "advice": "提前准备面试，多刷题"
+                    }
+                },
+                "key_insights": {
+                    "turning_points": ["参加Kaggle比赛让我确定了数据分析方向", "美团实习让我了解了真实的数据工作"],
+                    "hardest_challenge": "实习时不会写复杂SQL，每天加班学习，一个月后终于掌握",
+                    "most_useful_courses": ["数据库原理", "统计学", "数据可视化"],
+                    "most_useful_skills": ["SQL", "Python", "沟通能力"],
+                    "regrets": "大二没有早点确定方向，浪费了一些时间",
+                    "career_advice": "数据分析不只是技术，沟通和业务理解更重要",
+                    "hometown_advice": "河北的同学如果想留在本地，可以关注石家庄的互联网公司和金融机构"
+                },
+                "resources": {
+                    "books": ["SQL必知必会", "Python数据分析", "深入浅出数据分析"],
+                    "courses": ["Coursera SQL课程", "Tableau官方教程"],
+                    "websites": ["Kaggle", "LeetCode"],
+                    "communities": ["知乎数据分析话题", "数据分析微信群"]
+                }
+            },
+            {
+                "interview_id": "interview_002",
+                "person_id": "李学姐_安徽",
+                "basic_info": {
+                    "name": "李同学",
+                    "major": "数据科学与大数据技术",
+                    "hometown": "安徽合肥",
+                    "graduation_year": "2021",
+                    "current_job": "大数据工程师",
+                    "company": "阿里巴巴",
+                    "city": "杭州",
+                    "salary_range": "28K×16薪"
+                },
+                "learning_path": {
+                    "year_1": {
+                        "title": "基础打牢期",
+                        "courses": ["高等数学", "线性代数", "Java程序设计"],
+                        "skills": ["Java基础", "数据结构"],
+                        "activities": ["ACM编程社团"],
+                        "key_events": ["加入ACM社团培养编程能力"],
+                        "advice": "大一一定要打好数学和编程基础"
+                    },
+                    "year_2": {
+                        "title": "技术深耕期",
+                        "courses": ["数据结构与算法", "分布式系统", "数据库原理"],
+                        "skills": ["Java进阶", "Hadoop", "Spark"],
+                        "activities": ["参加大数据竞赛"],
+                        "key_events": ["第一次搭建Hadoop集群"],
+                        "advice": "大二开始学习大数据技术栈"
+                    },
+                    "year_3": {
+                        "title": "项目实战期",
+                        "courses": ["大数据技术", "云计算"],
+                        "skills": ["Spark", "Flink", "Kafka"],
+                        "activities": ["阿里巴巴大数据实习"],
+                        "key_events": ["拿到阿里实习offer"],
+                        "advice": "大三去大厂实习非常重要"
+                    },
+                    "year_4": {
+                        "title": "收获期",
+                        "courses": [],
+                        "skills": ["系统设计"],
+                        "activities": ["转正答辩"],
+                        "key_events": ["实习转正拿到正式offer"],
+                        "advice": "实习表现好可以直接转正"
+                    }
+                },
+                "key_insights": {
+                    "turning_points": ["加入ACM社团让我爱上编程", "阿里实习让我决定从事大数据"],
+                    "hardest_challenge": "学习Spark时遇到很多问题，通过看源码和社区解决",
+                    "most_useful_courses": ["数据结构", "分布式系统", "大数据技术"],
+                    "most_useful_skills": ["Java", "Spark", "问题解决能力"],
+                    "regrets": "没有早点学习英语，影响了出国交流机会",
+                    "career_advice": "大数据方向需要不断学习新技术",
+                    "hometown_advice": "安徽的同学可以关注合肥的科大讯飞、华米科技等本地企业"
+                },
+                "resources": {
+                    "books": ["Hadoop权威指南", "Spark快速大数据分析", "深入理解计算机系统"],
+                    "courses": ["Coursera Big Data", "Udacity Data Engineering"],
+                    "websites": ["GitHub", "Stack Overflow"],
+                    "communities": ["大数据技术社区", "掘金"]
+                }
+            },
+            {
+                "interview_id": "interview_003",
+                "person_id": "王学长_湖北",
+                "basic_info": {
+                    "name": "王同学",
+                    "major": "智能科学与技术",
+                    "hometown": "湖北武汉",
+                    "graduation_year": "2020",
+                    "current_job": "算法工程师",
+                    "company": "华为",
+                    "city": "深圳",
+                    "salary_range": "35K×14薪"
+                },
+                "learning_path": {
+                    "year_1": {
+                        "title": "数学筑基期",
+                        "courses": ["高等数学", "线性代数", "概率论与数理统计"],
+                        "skills": ["Python基础", "数学推导"],
+                        "activities": ["数学建模竞赛"],
+                        "key_events": ["参加数学建模获得省奖"],
+                        "advice": "智能专业数学非常重要，一定要学好"
+                    },
+                    "year_2": {
+                        "title": "AI入门期",
+                        "courses": ["机器学习", "深度学习", "模式识别"],
+                        "skills": ["Scikit-learn", "TensorFlow", "PyTorch"],
+                        "activities": ["复现论文", "参加AI竞赛"],
+                        "key_events": ["第一次复现深度学习论文成功"],
+                        "advice": "大二开始学习深度学习，复现论文很重要"
+                    },
+                    "year_3": {
+                        "title": "科研深耕期",
+                        "courses": ["强化学习", "自然语言处理"],
+                        "skills": ["NLP", "Transformer", "论文写作"],
+                        "activities": ["参与导师科研项目", "发表论文"],
+                        "key_events": ["发表第一篇论文"],
+                        "advice": "想做算法一定要参与科研项目"
+                    },
+                    "year_4": {
+                        "title": "求职期",
+                        "courses": [],
+                        "skills": ["面试准备", "算法刷题"],
+                        "activities": ["秋招", "面试"],
+                        "key_events": ["拿到华为算法岗offer"],
+                        "advice": "算法岗竞争激烈，要早准备"
+                    }
+                },
+                "key_insights": {
+                    "turning_points": ["参加数学建模让我对AI产生兴趣", "发表论文让我有信心投递算法岗"],
+                    "hardest_challenge": "学习深度学习时调参总是不收敛，后来发现是数据预处理的问题",
+                    "most_useful_courses": ["机器学习", "深度学习", "概率论"],
+                    "most_useful_skills": ["PyTorch", "数学推导", "论文阅读"],
+                    "regrets": "没有早点开始刷算法题，秋招时很紧张",
+                    "career_advice": "算法岗需要科研经历+工程能力+刷题",
+                    "hometown_advice": "武汉有很多AI公司，小米武汉、长江存储都是不错的选择"
+                },
+                "resources": {
+                    "books": ["深度学习", "统计学习方法", "动手学深度学习"],
+                    "courses": ["Coursera Machine Learning", "Stanford CS229"],
+                    "websites": ["arXiv", "GitHub"],
+                    "communities": ["知乎AI话题", "AI研习社"]
+                }
+            },
+            {
+                "interview_id": "interview_004",
+                "person_id": "赵学姐_河南",
+                "basic_info": {
+                    "name": "赵同学",
+                    "major": "智能科学与技术",
+                    "hometown": "河南郑州",
+                    "graduation_year": "2021",
+                    "current_job": "AI产品经理",
+                    "company": "腾讯",
+                    "city": "深圳",
+                    "salary_range": "30K×16薪"
+                },
+                "learning_path": {
+                    "year_1": {
+                        "title": "探索期",
+                        "courses": ["高等数学", "Python程序设计"],
+                        "skills": ["Python基础"],
+                        "activities": ["学生会", "社团活动"],
+                        "key_events": ["发现自己对产品更感兴趣"],
+                        "advice": "多参加社团活动，发现自己的兴趣"
+                    },
+                    "year_2": {
+                        "title": "技术+产品双修期",
+                        "courses": ["机器学习", "数据科学导论"],
+                        "skills": ["机器学习基础", "产品思维", "Axure"],
+                        "activities": ["参加产品比赛", "学习AI技术"],
+                        "key_events": ["参加产品比赛获得全国奖"],
+                        "advice": "想做AI产品需要技术+产品双修"
+                    },
+                    "year_3": {
+                        "title": "实习期",
+                        "courses": ["数据可视化"],
+                        "skills": ["数据分析", "产品设计"],
+                        "activities": ["网易产品实习"],
+                        "key_events": ["拿到网易产品实习"],
+                        "advice": "产品岗实习非常重要"
+                    },
+                    "year_4": {
+                        "title": "求职期",
+                        "courses": [],
+                        "skills": ["面试技巧"],
+                        "activities": ["秋招"],
+                        "key_events": ["拿到腾讯AI产品经理offer"],
+                        "advice": "产品岗需要准备很多案例分析"
+                    }
+                },
+                "key_insights": {
+                    "turning_points": ["参加产品比赛让我确定了产品方向", "网易实习让我了解了产品工作"],
+                    "hardest_challenge": "从技术转向产品时，很多人不理解，坚持自己的选择",
+                    "most_useful_courses": ["机器学习", "数据科学导论", "数据可视化"],
+                    "most_useful_skills": ["产品思维", "数据分析", "沟通能力"],
+                    "regrets": "大二花了太多时间在学生会，应该更早准备实习",
+                    "career_advice": "AI产品是很好的方向，需要懂技术又懂产品",
+                    "hometown_advice": "河南的同学可以关注郑州的互联网公司和传统企业数字化转型机会"
+                },
+                "resources": {
+                    "books": ["产品设计", "数据分析实战", "启示录"],
+                    "courses": ["Coursera Product Design"],
+                    "websites": ["人人都是产品经理", "36氪"],
+                    "communities": ["产品经理社区"]
+                }
+            },
+            {
+                "interview_id": "interview_005",
+                "person_id": "陈学长_四川",
+                "basic_info": {
+                    "name": "陈同学",
+                    "major": "数据科学与大数据技术",
+                    "hometown": "四川成都",
+                    "graduation_year": "2020",
+                    "current_job": "量化分析师",
+                    "company": "华泰证券",
+                    "city": "南京",
+                    "salary_range": "25K×12薪"
+                },
+                "learning_path": {
+                    "year_1": {
+                        "title": "基础期",
+                        "courses": ["高等数学", "线性代数", "概率论"],
+                        "skills": ["数学基础"],
+                        "activities": ["数学竞赛"],
+                        "key_events": ["发现对金融感兴趣"],
+                        "advice": "打好数学基础是一切的前提"
+                    },
+                    "year_2": {
+                        "title": "金融+数据结合期",
+                        "courses": ["统计学", "数据库原理", "金融学"],
+                        "skills": ["SQL", "R语言", "金融知识"],
+                        "activities": ["参加金融建模比赛"],
+                        "key_events": ["参加CFA考试"],
+                        "advice": "想做量化需要学习金融知识"
+                    },
+                    "year_3": {
+                        "title": "实习期",
+                        "courses": ["机器学习", "时间序列分析"],
+                        "skills": ["量化策略", "Python金融分析"],
+                        "activities": ["中信证券实习"],
+                        "key_events": ["拿到中信实习offer"],
+                        "advice": "金融行业实习非常重要"
+                    },
+                    "year_4": {
+                        "title": "求职期",
+                        "courses": [],
+                        "skills": ["面试准备"],
+                        "activities": ["秋招"],
+                        "key_events": ["拿到华泰证券offer"],
+                        "advice": "金融行业招聘流程较长，要提前准备"
+                    }
+                },
+                "key_insights": {
+                    "turning_points": ["参加金融建模比赛让我确定量化方向", "中信实习让我了解金融行业"],
+                    "hardest_challenge": "从数据科学转向金融需要补充很多金融知识",
+                    "most_useful_courses": ["概率论", "统计学", "时间序列分析"],
+                    "most_useful_skills": ["R语言", "Python", "金融知识"],
+                    "regrets": "没有早点学习金融知识，大三才开始有点晚",
+                    "career_advice": "量化需要数学+编程+金融知识的结合",
+                    "hometown_advice": "四川的同学可以关注成都的金融科技公司"
+                },
+                "resources": {
+                    "books": ["量化投资", "Python金融分析", "概率论与数理统计"],
+                    "courses": ["Coursera Finance"],
+                    "websites": ["Wind", "Bloomberg"],
+                    "communities": ["量化投资社区"]
+                }
+            },
+            {
+                "interview_id": "interview_006",
+                "person_id": "刘学姐_湖南",
+                "basic_info": {
+                    "name": "刘同学",
+                    "major": "智能科学与技术",
+                    "hometown": "湖南长沙",
+                    "graduation_year": "2021",
+                    "current_job": "研究生",
+                    "company": "清华大学",
+                    "city": "北京",
+                    "salary_range": ""
+                },
+                "learning_path": {
+                    "year_1": {
+                        "title": "基础期",
+                        "courses": ["高等数学", "线性代数", "Python程序设计"],
+                        "skills": ["Python基础", "数学推导"],
+                        "activities": ["数学建模竞赛"],
+                        "key_events": ["获得数学建模国奖"],
+                        "advice": "大一打好基础，参加竞赛"
+                    },
+                    "year_2": {
+                        "title": "科研入门期",
+                        "courses": ["机器学习", "模式识别"],
+                        "skills": ["Scikit-learn", "科研能力"],
+                        "activities": ["进入导师实验室"],
+                        "key_events": ["加入导师实验室开始科研"],
+                        "advice": "大二尽早联系导师做科研"
+                    },
+                    "year_3": {
+                        "title": "科研深耕期",
+                        "courses": ["深度学习", "自然语言处理"],
+                        "skills": ["PyTorch", "论文写作"],
+                        "activities": ["发表论文", "参加学术会议"],
+                        "key_events": ["发表SCI论文"],
+                        "advice": "想保研一定要有科研成果"
+                    },
+                    "year_4": {
+                        "title": "保研期",
+                        "courses": [],
+                        "skills": ["面试技巧"],
+                        "activities": ["保研面试"],
+                        "key_events": ["拿到清华保研offer"],
+                        "advice": "保研需要提前准备，关注夏令营"
+                    }
+                },
+                "key_insights": {
+                    "turning_points": ["加入导师实验室让我爱上科研", "发表论文让我有信心申请清华"],
+                    "hardest_challenge": "写第一篇论文时反复被拒，修改了十几次",
+                    "most_useful_courses": ["机器学习", "深度学习", "概率论"],
+                    "most_useful_skills": ["PyTorch", "论文写作", "英语"],
+                    "regrets": "没有早点准备英语，影响了申请海外名校",
+                    "career_advice": "想做科研一定要尽早进入实验室",
+                    "hometown_advice": "湖南的同学可以关注中南大学、湖南大学的保研机会"
+                },
+                "resources": {
+                    "books": ["深度学习", "统计学习方法", "论文写作指南"],
+                    "courses": ["Coursera Machine Learning"],
+                    "websites": ["arXiv", "Google Scholar"],
+                    "communities": ["学术交流群"]
+                }
+            },
+            {
+                "interview_id": "interview_007",
+                "person_id": "孙学长_山东",
+                "basic_info": {
+                    "name": "孙同学",
+                    "major": "数据科学与大数据技术",
+                    "hometown": "山东济南",
+                    "graduation_year": "2020",
+                    "current_job": "数据产品经理",
+                    "company": "美团",
+                    "city": "北京",
+                    "salary_range": "28K×15薪"
+                },
+                "learning_path": {
+                    "year_1": {
+                        "title": "基础期",
+                        "courses": ["高等数学", "Python程序设计"],
+                        "skills": ["Python基础"],
+                        "activities": ["学生会"],
+                        "key_events": ["发现对产品感兴趣"],
+                        "advice": "多尝试不同方向"
+                    },
+                    "year_2": {
+                        "title": "技术+产品期",
+                        "courses": ["数据科学导论", "数据库原理"],
+                        "skills": ["SQL", "数据分析", "产品思维"],
+                        "activities": ["产品比赛", "数据分析项目"],
+                        "key_events": ["参加产品比赛获奖"],
+                        "advice": "数据产品需要技术和产品能力"
+                    },
+                    "year_3": {
+                        "title": "实习期",
+                        "courses": ["数据可视化"],
+                        "skills": ["Tableau", "产品设计"],
+                        "activities": ["滴滴数据产品实习"],
+                        "key_events": ["拿到滴滴实习offer"],
+                        "advice": "数据产品实习非常重要"
+                    },
+                    "year_4": {
+                        "title": "求职期",
+                        "courses": [],
+                        "skills": ["面试技巧"],
+                        "activities": ["秋招"],
+                        "key_events": ["拿到美团数据产品offer"],
+                        "advice": "数据产品岗竞争激烈，要准备案例分析"
+                    }
+                },
+                "key_insights": {
+                    "turning_points": ["参加产品比赛让我确定数据产品方向", "滴滴实习让我了解数据产品工作"],
+                    "hardest_challenge": "从纯技术转向数据产品需要学习产品方法论",
+                    "most_useful_courses": ["数据科学导论", "数据库原理", "数据可视化"],
+                    "most_useful_skills": ["SQL", "数据分析", "产品思维"],
+                    "regrets": "没有早点学习产品知识",
+                    "career_advice": "数据产品是很好的方向，需求量大",
+                    "hometown_advice": "山东的同学可以关注济南、青岛的互联网公司"
+                },
+                "resources": {
+                    "books": ["数据产品设计", "数据分析实战", "产品方法论"],
+                    "courses": ["Coursera Data Analysis"],
+                    "websites": ["人人都是产品经理", "数据分析网"],
+                    "communities": ["数据产品社区"]
+                }
+            },
+            {
+                "interview_id": "interview_008",
+                "person_id": "周学姐_广东",
+                "basic_info": {
+                    "name": "周同学",
+                    "major": "智能科学与技术",
+                    "hometown": "广东广州",
+                    "graduation_year": "2021",
+                    "current_job": "计算机视觉工程师",
+                    "company": "腾讯",
+                    "city": "深圳",
+                    "salary_range": "32K×16薪"
+                },
+                "learning_path": {
+                    "year_1": {
+                        "title": "基础期",
+                        "courses": ["高等数学", "线性代数", "Python程序设计"],
+                        "skills": ["Python基础", "数学推导"],
+                        "activities": ["计算机视觉兴趣小组"],
+                        "key_events": ["加入CV兴趣小组"],
+                        "advice": "找到自己感兴趣的方向很重要"
+                    },
+                    "year_2": {
+                        "title": "CV入门期",
+                        "courses": ["模式识别", "数字图像处理"],
+                        "skills": ["OpenCV", "图像处理", "传统CV算法"],
+                        "activities": ["参加CV比赛"],
+                        "key_events": ["第一次参加CV比赛"],
+                        "advice": "大二开始深入学习CV"
+                    },
+                    "year_3": {
+                        "title": "深度学习CV期",
+                        "courses": ["深度学习", "计算机视觉"],
+                        "skills": ["PyTorch", "CNN", "目标检测"],
+                        "activities": ["参加CVPR论文复现", "腾讯实习"],
+                        "key_events": ["拿到腾讯CV方向实习"],
+                        "advice": "CV方向需要大量实践"
+                    },
+                    "year_4": {
+                        "title": "求职期",
+                        "courses": [],
+                        "skills": ["面试准备"],
+                        "activities": ["秋招"],
+                        "key_events": ["拿到腾讯CV工程师offer"],
+                        "advice": "CV岗需要准备很多项目"
+                    }
+                },
+                "key_insights": {
+                    "turning_points": ["加入CV兴趣小组让我爱上计算机视觉", "腾讯实习让我确定CV方向"],
+                    "hardest_challenge": "学习深度学习时调参总是不收敛，后来发现是数据问题",
+                    "most_useful_courses": ["模式识别", "深度学习", "计算机视觉"],
+                    "most_useful_skills": ["PyTorch", "OpenCV", "CV算法"],
+                    "regrets": "没有早点开始做CV项目",
+                    "career_advice": "CV方向竞争激烈，要做出有亮点的项目",
+                    "hometown_advice": "广东的同学可以关注广州、深圳的AI公司"
+                },
+                "resources": {
+                    "books": ["深度学习", "计算机视觉：算法与应用", "动手学深度学习"],
+                    "courses": ["Coursera Deep Learning", "Stanford CS231n"],
+                    "websites": ["CVPR", "arXiv"],
+                    "communities": ["CV技术社区"]
+                }
+            }
+        ]
+    },
+    "learning_paths": {
+        "description": "基于采访数据归纳的通用学习路径，供学生参考",
+        "paths": [
+            {
+                "path_id": "data_analysis",
+                "path_name": "数据分析方向",
+                "description": "适合对数据敏感、喜欢用数据解决问题的同学",
+                "target_roles": ["数据分析师", "商业分析师", "数据产品经理", "BI工程师"],
+                "salary_range": "应届10K-20K，3年经验20K-35K",
+                "reference_interviews": ["interview_001", "interview_007"],
+                "key_courses": ["统计学", "数据库原理", "数据可视化", "机器学习"],
+                "key_skills": ["SQL", "Python", "数据可视化工具", "沟通能力"],
+                "typical_path": ["打好数学基础", "学习SQL和Python", "参与数据分析项目", "实习", "求职"]
+            },
+            {
+                "path_id": "big_data",
+                "path_name": "大数据方向",
+                "description": "适合对大规模数据处理感兴趣的同学",
+                "target_roles": ["大数据工程师", "数据平台开发", "数据仓库工程师"],
+                "salary_range": "应届12K-22K，3年经验25K-40K",
+                "reference_interviews": ["interview_002"],
+                "key_courses": ["数据结构", "分布式系统", "大数据技术", "云计算"],
+                "key_skills": ["Java", "Spark", "Flink", "Hadoop"],
+                "typical_path": ["打好编程基础", "学习大数据技术栈", "参与大数据项目", "大厂实习", "求职"]
+            },
+            {
+                "path_id": "ai_algorithm",
+                "path_name": "AI算法方向",
+                "description": "适合对算法和AI感兴趣、数学基础好的同学",
+                "target_roles": ["算法工程师", "机器学习工程师", "计算机视觉工程师", "NLP工程师"],
+                "salary_range": "应届15K-28K，3年经验30K-50K",
+                "reference_interviews": ["interview_003", "interview_008"],
+                "key_courses": ["机器学习", "深度学习", "概率论", "模式识别"],
+                "key_skills": ["Python", "PyTorch/TensorFlow", "数学推导", "论文阅读"],
+                "typical_path": ["打好数学基础", "学习机器学习", "参与科研项目", "发表论文", "求职"]
+            },
+            {
+                "path_id": "ai_product",
+                "path_name": "AI产品方向",
+                "description": "适合既懂技术又懂产品的同学",
+                "target_roles": ["AI产品经理", "数据产品经理"],
+                "salary_range": "应届15K-25K，3年经验25K-40K",
+                "reference_interviews": ["interview_004", "interview_007"],
+                "key_courses": ["机器学习", "数据科学导论", "数据可视化"],
+                "key_skills": ["产品思维", "数据分析", "技术理解", "沟通能力"],
+                "typical_path": ["学习技术基础", "培养产品思维", "参加产品比赛", "产品实习", "求职"]
+            },
+            {
+                "path_id": "finance_quant",
+                "path_name": "金融量化方向",
+                "description": "适合对金融感兴趣、数学基础好的同学",
+                "target_roles": ["量化分析师", "金融数据分析师"],
+                "salary_range": "应届12K-20K，3年经验20K-35K",
+                "reference_interviews": ["interview_005"],
+                "key_courses": ["概率论", "统计学", "时间序列分析", "金融学"],
+                "key_skills": ["Python/R", "金融知识", "量化策略", "SQL"],
+                "typical_path": ["打好数学基础", "学习金融知识", "参与金融建模", "金融实习", "求职"]
+            },
+            {
+                "path_id": "graduate_study",
+                "path_name": "考研/保研方向",
+                "description": "适合希望继续深造的同学",
+                "target_roles": ["研究生", "科研工作者"],
+                "salary_range": "",
+                "reference_interviews": ["interview_006"],
+                "key_courses": ["数学", "专业核心课"],
+                "key_skills": ["科研能力", "论文写作", "英语", "面试技巧"],
+                "typical_path": ["打好基础", "进入实验室", "发表论文", "申请保研/考研", "录取"]
+            }
+        ]
+    },
+    "hometown_guide": {
+        "description": "各地区就业特点和建议，基于采访数据汇总",
+        "regions": {
+            "河北": {
+                "major_cities": ["石家庄", "北京"],
+                "local_companies": ["石家庄本地互联网公司", "金融机构"],
+                "suggestions": "河北的同学如果想留在本地，可以关注石家庄的互联网公司和金融机构；如果想去大城市，北京是首选",
+                "reference_interviews": ["interview_001"]
+            },
+            "安徽": {
+                "major_cities": ["合肥"],
+                "local_companies": ["科大讯飞", "华米科技", "安徽数据集团"],
+                "suggestions": "安徽的同学可以关注合肥的科大讯飞、华米科技等本地企业，合肥近年来AI产业发展很快",
+                "reference_interviews": ["interview_002"]
+            },
+            "湖北": {
+                "major_cities": ["武汉"],
+                "local_companies": ["小米武汉", "长江存储", "华为武汉"],
+                "suggestions": "武汉有很多AI公司，小米武汉、长江存储都是不错的选择，光谷AI产业聚集",
+                "reference_interviews": ["interview_003"]
+            },
+            "河南": {
+                "major_cities": ["郑州"],
+                "local_companies": ["郑州互联网公司", "传统企业数字化转型"],
+                "suggestions": "河南的同学可以关注郑州的互联网公司和传统企业数字化转型机会",
+                "reference_interviews": ["interview_004"]
+            },
+            "四川": {
+                "major_cities": ["成都"],
+                "local_companies": ["华为成都", "腾讯成都", "新希望"],
+                "suggestions": "成都互联网产业发展不错，华为成都、腾讯成都都是不错的选择",
+                "reference_interviews": ["interview_005"]
+            },
+            "湖南": {
+                "major_cities": ["长沙"],
+                "local_companies": ["长沙互联网公司", "中南大学", "湖南大学"],
+                "suggestions": "湖南的同学可以关注中南大学、湖南大学的保研机会，长沙互联网产业也在发展",
+                "reference_interviews": ["interview_006"]
+            },
+            "山东": {
+                "major_cities": ["济南", "青岛"],
+                "local_companies": ["济南互联网公司", "青岛互联网公司"],
+                "suggestions": "山东的同学可以关注济南、青岛的互联网公司",
+                "reference_interviews": ["interview_007"]
+            },
+            "广东": {
+                "major_cities": ["广州", "深圳"],
+                "local_companies": ["腾讯", "华为", "微信团队"],
+                "suggestions": "广东的同学可以关注广州、深圳的AI公司，腾讯、华为等大厂都有布局",
+                "reference_interviews": ["interview_008"]
+            }
+        }
+    }
+}

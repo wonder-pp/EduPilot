@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# 敏感信息（绝对不能提交）
+.env
+
+# 数据库
+db.sqlite3
+db.sqlite3-journal
+
+# 日志
+*.log
+app.log
+
+# 媒体文件（用户上传）
+edupilot_project/media/
+
+# FAISS 索引（可随时重建）
+edupilot_agent/data/langchain_faiss/
+
+# 部署临时文件
+*.pem
+.deploy_tmp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 临时文件
+*.tmp
+*~
