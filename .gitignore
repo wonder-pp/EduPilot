@@ -26,9 +26,20 @@ edupilot_project/media/
 # FAISS 索引（可随时重建）
 edupilot_agent/data/langchain_faiss/
 
-# 部署临时文件
+# 部署相关（含服务器IP、SSH密码等敏感信息）
+deploy/
+deploy_to_ecs.py
 *.pem
 .deploy_tmp/
+
+# 生产环境配置（含 Django Secret Key）
+edupilot_project/edupilot_project/settings_prod.py
+
+# 内部文档（不对外公开）
+GitHub协作操作指南.md
+GoodFirstIssue清单.md
+部署文档.md
+DOCKER_DEPLOY.md
 
 # IDE
 .vscode/
