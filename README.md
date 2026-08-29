@@ -94,4 +94,4 @@ EduPilot 采用分层架构设计：
 - **风险评估**：内容安全审核 + 回复质量评估双层保障
 - **数据层**：脱敏学长档案（姓名 / 联系方式已脱敏），SQLite + JSON 存储
 
-> 架构图详见 `EduPilot_架构图.pptx`（可编辑原生形状）
+<img width="100%" alt="EduPilot 系统架构图" src="https://github.com/user-attachments/assets/95d353a6-3214-45d6-a70e-e73296782911" />
