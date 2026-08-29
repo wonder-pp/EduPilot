@@ -33,22 +33,12 @@ python manage.py migrate
 
 ### 4. 启动服务
 
-**方式一：一键启动（推荐）**
-
-```bash
-python run.py
-```
-
-默认端口 `7860`，可通过环境变量修改：`PORT=8000 python run.py`
-
-**方式二：手动启动**
-
 ```bash
 cd edupilot_project
 python manage.py runserver 8000
 ```
 
-启动后访问：http://127.0.0.1:7860 （或自定义端口）
+启动后访问：http://127.0.0.1:8000
 
 ## 项目结构
 
@@ -64,7 +54,6 @@ EduPilot/
 │   ├── reasoner.py        # 推理 + 证据统计
 │   ├── data/              # FAISS 索引、访谈/案例数据
 │   └── ...
-├── run.py                 # 一键启动脚本
 ├── requirements.txt       # 依赖配置
 └── .env                   # 环境变量
 ```
