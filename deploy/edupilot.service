@@ -1,0 +1,26 @@
+[Unit]
+Description=EduPilot Django Application
+After=network.target
+
+[Service]
+User=ubuntu
+Group=www-data
+WorkingDirectory=/home/ubuntu/EduPilot/edupilot_project
+
+# 环境变量
+Environment="DJANGO_SETTINGS_MODULE=edupilot_project.settings_prod"
+Environment="PYTHONUNBUFFERED=1"
+
+# 启动命令
+ExecStart=/home/ubuntu/EduPilot/venv/bin/gunicorn -c /home/ubuntu/EduPilot/deploy/gunicorn.conf.py
+
+# 自动重启
+Restart=always
+RestartSec=5
+
+# 资源限制（4G 内存优化）
+LimitNOFILE=65536
+TimeoutStopSec=30
+
+[Install]
+WantedBy=multi-user.target

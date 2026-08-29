@@ -1,0 +1,41 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 版本控制
+.git/
+.gitignore
+
+# 虚拟环境
+venv/
+.venv/
+env/
+ENV/
+
+# 日志
+*.log
+
+# 本地 SQLite（容器内由 migrate 重新生成，避免带入宿主机脏数据）
+db.sqlite3
+db.sqlite3-journal
+
+# 敏感配置（容器内通过 docker-compose env_file 注入，不打包进镜像）
+.env
+.env.local
+.env.*.local
+
+# 本地部署/运行脚本与产物
+deploy_to_ecs.py
+
+# 设计稿与原生（非 Docker）部署配置，镜像内不需要
+EduPilot-VibeCamp.design/
+deploy/
+
+# 本地运行态文件（含明文密码/历史记录，不应进入镜像）
+chat_history.json
+users.json
+
+# 系统 / IDE
+.DS_Store
+.idea/
+.vscode/

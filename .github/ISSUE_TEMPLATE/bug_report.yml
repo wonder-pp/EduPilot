@@ -1,0 +1,65 @@
+name: Bug 报告
+description: 报告一个 Bug，帮助我们改进
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢你报告 Bug！请尽可能详细地填写以下信息。
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Bug 描述
+      description: 清晰描述遇到了什么问题
+      placeholder: 例如：登录后页面空白，控制台报 500 错误
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 你是怎么触发这个 Bug 的？
+      placeholder: |
+        1. 打开 http://127.0.0.1:7860
+        2. 点击「学生登录」
+        3. 输入用户名和密码
+        4. 页面空白
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望行为
+      description: 你认为正确的行为应该是什么
+    validations:
+      required: true
+
+  - type: dropdown
+    id: role
+    attributes:
+      label: 你使用的角色端
+      options:
+        - 学生端
+        - 教师端
+        - 管理员
+    validations:
+      required: true
+
+  - type: input
+    id: browser
+    attributes:
+      label: 浏览器/环境
+      placeholder: 例如 Chrome 120, Windows 11
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 错误日志/截图
+      description: 如果有控制台报错或后端日志，请贴出来
+    validations:
+      required: false

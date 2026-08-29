@@ -1,0 +1,27 @@
+# Django Web Framework（使用 5.x 稳定版）
+django>=5.1,<6
+gunicorn>=22.0,<24
+waitress>=2.1.2,<4
+
+# Environment Variables
+python-dotenv>=1.0.0
+
+# LangChain for RAG
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-community>=0.0.0
+langchain-openai>=0.1.0
+
+# Vector Database
+faiss-cpu>=1.7.0
+
+# LLM API Client
+openai>=1.0.0
+
+# Embeddings
+tiktoken>=0.4.0
+
+# Other utilities
+requests>=2.31.0
+numpy>=1.24.0
+Pillow>=10.0.0

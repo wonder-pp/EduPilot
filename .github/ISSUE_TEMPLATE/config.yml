@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 项目讨论区
+    url: https://github.com/<你的用户名>/EduPilot/discussions
+    about: 有想法或疑问？来 Discussions 讨论区聊聊
