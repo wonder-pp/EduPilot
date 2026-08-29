@@ -41,12 +41,6 @@ GoodFirstIssue清单.md
 部署文档.md
 DOCKER_DEPLOY.md
 
-# Docker 文件（不公开部署）
-Dockerfile
-docker-compose.yml
-docker-entrypoint.sh
-.dockerignore
-
 # IDE
 .vscode/
 .idea/
