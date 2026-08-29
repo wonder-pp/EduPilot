@@ -48,7 +48,7 @@ cd edupilot_project
 python manage.py runserver 8000
 ```
 
-启动后访问：http://127.0.0.1:7860 （或自定义端口）
+启动后访问：http://127.0.0.1:8000 （或自定义端口）
 
 ## 项目结构
 
