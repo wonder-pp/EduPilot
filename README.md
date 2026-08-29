@@ -40,6 +40,20 @@ python manage.py runserver 8000
 
 启动后访问：http://127.0.0.1:8000
 
+### Docker 部署
+
+```bash
+# 1. 配置 API Key
+cp .env.example .env
+# 编辑 .env 填入 DASHSCOPE_API_KEY
+
+# 2. 构建并启动
+docker compose up -d --build
+
+# 3. 浏览器访问
+# http://localhost:7860
+```
+
 ## 项目结构
 
 ```
